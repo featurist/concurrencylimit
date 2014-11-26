@@ -1,0 +1,30 @@
+{
+  "name": "concurrencylimit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/featurist/concurrencylimit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/featurist/concurrencylimit/issues"
+  },
+  "homepage": "https://github.com/featurist/concurrencylimit",
+  "devDependencies": {
+    "bluebird": "^2.3.11",
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "pogo": "^0.9.6",
+    "underscore": "^1.7.0"
+  }
+}
